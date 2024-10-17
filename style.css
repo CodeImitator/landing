@@ -148,6 +148,20 @@ header .container {
     width: 600px;
 }
 
+.form__container{
+    position: relative;
+}
+
+.welcome__email-icon {
+    position: absolute;
+    
+    width: 20px;
+    height: 14px;
+
+    left: 18px;
+    top: 15px;
+}
+
 
 .welcome__input {
     padding: 13px 218px 13px 48px;
@@ -430,6 +444,26 @@ header .container {
     align-items: center;
 
     position: relative;
+}
+
+.cube1 {
+    position: absolute;
+    z-index: -1;
+
+    opacity: 0.5;
+
+    right: 79px;
+    top: 50px;
+}
+
+.cube2 {
+    position: absolute;
+    z-index: -1;
+
+    opacity: 0.5;
+
+    right: 35px;
+    top: 109px;
 }
 
 .inner-circle-1 {
